@@ -80,7 +80,7 @@ int main()
 	resource = "Hello World";
 
 	std::cout << fs::filesystem_view::validate_domains("toplevel://this_is_a.test/file.png") << std::endl; 
-	std::cout << fs::filesystem_view::validate_domains("toplevel://this_is_a.fuck/file.png") << std::endl; 
+	std::cout << fs::filesystem_view::validate_domains("toplevel://this_is_a.fail/file.png") << std::endl; 
 	
 	std::cout << resource.to_string() << std::endl;
 
